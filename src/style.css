@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f3f3f3; /* Change the background color to your preference */
+  font-size: 16px; /* Increase the font size */
+}
+
+.container {
+  margin: 2rem auto;
+  max-width: 800px;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the DataTable */
+.dataTable {
+  font-size: 14px;
+  width: 100%;
+}
+
+/* Style the Add New button with a different background color */
+.btn-primary {
+  background-color: #007bff; /* Change the button color to your preference */
+  color: #fff;
+  border: none;
+  padding: 14px 24px; /* Increase the button size */
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+/* Style the Edit and Delete buttons with different background colors */
+.btn-success {
+  background-color: #28a745; /* Change the button color to your preference */
+  color: #fff;
+  border: none;
+  padding: 8px 16px; /* Increase the button size */
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.btn-danger {
+  background-color: #dc3545; /* Change the button color to your preference */
+  color: #fff;
+  border: none;
+  padding: 8px 16px; /* Increase the button size */
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+/* Style the input fields for editing and adding new rows */
+input[type='text'],
+input[type='number'] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+/* Add some spacing for the Edit and Delete icons */
+.feather {
+  vertical-align: middle;
+}
+
+/* Adjust the padding for the Add New button and its icon */
+.btn-primary .feather {
+  margin-right: 10px;
+}
